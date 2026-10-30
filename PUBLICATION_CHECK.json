@@ -1,11 +1,12 @@
 {
-  "timestamp_utc": "2026-10-30T17:47:47.738077+00:00",
+  "timestamp_utc": "2026-10-30T17:48:12.766672+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 41,
+  "files_checked": 43,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
     ".gitattributes": "a8461cd7960959aa7264bfc16744008db96c014da777e24dff855b13100e53b1",
+    ".github/workflows/reproduce.yml": "cbc892c2d51f1971f7d56d23669f804795a5d336d3181cddd55f1caa1d8e4aae",
     ".gitignore": "60df6be84bf52e59d66a0a2a46d4e1b963349c50e2b2648e7b41280d3c3bd82e",
     "DATA_RIGHTS.md": "a73a7368a0171726e769f2a315ed2bc26bfa7cf796d26705567d4dbfc4e70f74",
     "LICENSE": "1810ffd0f9ec2e70b051ff6340544087d0dd7b522237d7207e98424373928a41",
@@ -41,6 +42,7 @@
     "src/freeze_proof.py": "ce42fcfa77e93fe65c68510dc623e2c5e4d73eb6839ee73da17970c45a11fe17",
     "src/prepare_inputs.py": "b787584d4c1237ff460c8857c4bcdfdf4c9bb383c47eff3b4520c1beacfe4d2b",
     "src/project_source.py": "c1b5614f9ad5ff49b939a69d68a0b3e306e3d683db58e30b4358522ca93a9d95",
+    "src/reproduce.py": "7690105cb97b5f6aea11f9de769b0cd9717e0a75b68ae08abf207a89be262e69",
     "src/verify_decisions.py": "22620f71cc68613eb2e8fe0f5db90aac7f0930133ec0cc2a982f4156182e9a14",
     "src/verify_inputs.py": "de7191a06d543fbfc58309df7774ed425ff050e859aabd5a4c6fc2f2e33f6020",
     "src/verify_source.py": "9052696bbce47acfaa0cccb1f0be045e83e922cb034c780f037e19fe85915be6",
