@@ -1,0 +1,16 @@
+{
+  "status": "EXECUTED_FIXED_RULES",
+  "role": "held",
+  "models": 112,
+  "scenario_action_rows": 1030,
+  "choices": 336,
+  "metrics": 27,
+  "rules": [
+    "nominal",
+    "maximin",
+    "minimax_regret"
+  ],
+  "learned_parameters": 0,
+  "selected_policy": null,
+  "scope": "Finite supplied simulation cases;no probabilities,field effects,cost or national extrapolation"
+}

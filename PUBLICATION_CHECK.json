@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T17:47:29.816286+00:00",
+  "timestamp_utc": "2026-10-30T17:47:47.738077+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 35,
+  "files_checked": 41,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -24,7 +24,13 @@
     "results/development_summary.json": "e51b5fc04ee221af26591399a458437161b2a61412f8e470e6041c3741b144db",
     "results/eligible_models.csv": "10eaba2782fd7dcc8622b37c350a19152b69a1d1d15794d6db920d68eaa7b836",
     "results/frozen_dependencies.json": "b13c5fa602ba71d7c6e1377dbf8d70f63185003c64583c4ca89c12727b367fc4",
+    "results/held_action_outcomes.csv": "73c5275f176b181e15ae525810072b5a2ee21bc94a0786195566a53782189317",
+    "results/held_choices.csv": "db007872853a0074f60fed75f0da404e270c85a3c80acccedd25f3c7dd8ad321",
+    "results/held_metrics.csv": "c2ebfbd8b2eeb3acd599ec2fd1d03ff52af186a4f2e5aecc082d70923d88a9d2",
+    "results/held_model_diagnostics.csv": "1ed6196ef2fd325dbb4dbfcc25fd178a1da4d3961f285f82ab4283d0729debc8",
+    "results/held_summary.json": "7021d591073d80e86b466d4c51b78627e5da24e0c9a919c03f4f87091cf067a4",
     "results/independent_development.json": "12dc8385aaa0b86df8e5d90b63eb49a5f3135addd5bdd92fc653ecb476a1d30b",
+    "results/independent_held.json": "9b1ae512812a805b05290ba4401cdef34a4de11babad1e2153c842d4e0b807fd",
     "results/independent_inputs.json": "8557266b3d14e58d65b8cdad53905dac5bee5233102f6ccb2944632742b6771d",
     "results/model_eligibility.csv": "ad6ce023e0543d85ca3709219c3257ac6a35b1a0346c877d4e2075bd16da326d",
     "results/scenario_inputs.csv": "a19a37c4430aaacfa5754107c8f5dba787b5330398569bdae883a18832bfaed0",
