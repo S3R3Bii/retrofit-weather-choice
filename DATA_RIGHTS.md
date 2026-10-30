@@ -1,0 +1,5 @@
+# Source attribution and use
+
+Data includes information from the ComStock dataset developed by the National Laboratory of the Rockies with U.S. Department of Energy funding. Source release: ComStock 2025 Release 2, AMY2012 and AMY2018, published through the [OEDI collection](https://data.openei.org/submissions/4520) and its documented public S3 store. Retain [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), the [official attribution and research/as-is disclaimer](https://natlabrockies.github.io/ComStock.github.io/docs/citation.html), and Parker et al. (2023), ComStock Reference Documentation, NREL/TP-5500-83819.
+
+Changes: a minimal simulation-field projection, explicit source/eligibility flags, model-ID deduplication only for identical technical copies, exact normalized ratios and finite scenario decisions. Original Parquet files, source documents/dictionaries, logos, unused location/contact metadata and private/formal-publication projects are excluded. No endorsement, measured field saving, verified individual building identity or national representative total is claimed. Separate upgrade results are compared, never added into an unmodeled package.

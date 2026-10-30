@@ -1,0 +1,72 @@
+[
+  {
+    "weather": "amy2018",
+    "upgrade": 0,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade0.parquet",
+    "bytes_from_listing": 5833030,
+    "file": "amy2018-upgrade0.parquet"
+  },
+  {
+    "weather": "amy2018",
+    "upgrade": 39,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade39.parquet",
+    "bytes_from_listing": 6942967,
+    "file": "amy2018-upgrade39.parquet"
+  },
+  {
+    "weather": "amy2018",
+    "upgrade": 40,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade40.parquet",
+    "bytes_from_listing": 7434259,
+    "file": "amy2018-upgrade40.parquet"
+  },
+  {
+    "weather": "amy2018",
+    "upgrade": 45,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade45.parquet",
+    "bytes_from_listing": 7373319,
+    "file": "amy2018-upgrade45.parquet"
+  },
+  {
+    "weather": "amy2018",
+    "upgrade": 48,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade48.parquet",
+    "bytes_from_listing": 7381575,
+    "file": "amy2018-upgrade48.parquet"
+  },
+  {
+    "weather": "amy2012",
+    "upgrade": 0,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade0.parquet",
+    "bytes_from_listing": 5784809,
+    "file": "amy2012-upgrade0.parquet"
+  },
+  {
+    "weather": "amy2012",
+    "upgrade": 39,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade39.parquet",
+    "bytes_from_listing": 6872012,
+    "file": "amy2012-upgrade39.parquet"
+  },
+  {
+    "weather": "amy2012",
+    "upgrade": 40,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade40.parquet",
+    "bytes_from_listing": 7381993,
+    "file": "amy2012-upgrade40.parquet"
+  },
+  {
+    "weather": "amy2012",
+    "upgrade": 45,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade45.parquet",
+    "bytes_from_listing": 7317770,
+    "file": "amy2012-upgrade45.parquet"
+  },
+  {
+    "weather": "amy2012",
+    "upgrade": 48,
+    "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade48.parquet",
+    "bytes_from_listing": 7323741,
+    "file": "amy2012-upgrade48.parquet"
+  }
+]
