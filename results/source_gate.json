@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "source_rows": 28510,
+  "planned_models": 882,
+  "eligible_models": 535,
+  "planned_by_group": {
+    "outside": 207,
+    "Hotel": 65,
+    "Office": 309,
+    "Retail": 207,
+    "Warehouse": 94
+  },
+  "eligible_by_group": {
+    "Hotel": 40,
+    "Office": 259,
+    "Retail": 164,
+    "Warehouse": 72
+  },
+  "eligible_by_role": {
+    "held": 112,
+    "development": 423
+  },
+  "overlapping_reason_counts": {
+    "outside_four_archetypes": 207,
+    "amy2012_missing_baseline": 219,
+    "amy2012_missing_upgrade_39": 219,
+    "amy2012_missing_upgrade_40": 219,
+    "amy2012_missing_upgrade_45": 219,
+    "amy2012_missing_upgrade_48": 219,
+    "no_complete_applicable_action_information": 219
+  },
+  "source_key_groups": 8700,
+  "repeated_source_rows": 19810,
+  "conflicting_key_groups": 0,
+  "scope": "Unweighted unique simulation IDs in one county,two published weather cases;no field savings,national totals,controlled occupancy effect or weather-causality validation"
+}

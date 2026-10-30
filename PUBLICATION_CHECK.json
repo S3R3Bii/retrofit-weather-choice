@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T17:37:43.024440+00:00",
+  "timestamp_utc": "2026-10-30T17:42:52.487713+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 9,
+  "files_checked": 22,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -11,9 +11,21 @@
     "LICENSE": "1810ffd0f9ec2e70b051ff6340544087d0dd7b522237d7207e98424373928a41",
     "PROTOCOL.md": "32379f670d7999d6fb2f8da47df3444ba3777e2895d965b025d04459bf678f89",
     "README.md": "cd51f17a92f5bc49adb39079044fcef8d4afc96c4e30c140213619c4e285bb94",
+    "data/dictionary_fields.json": "75e316215748adb8a5f7ec0107690c9bf001e90f69673e8e26c75f16f481cb8a",
+    "data/records.csv.gz": "29703e1235e8a8467ef9a15b205f8d5405a41de551f4af419c023e5482a3f7ad",
+    "data/source_manifest.json": "1da7b18911c0bddd7826ec1ad93bbbfc399f03bc02994662c9cd8399ee68dde0",
     "data/source_requests.json": "00390839da9d36baab425f3a20d07efe05da89d4ec5e2c4b7b3284201e77d6c9",
+    "data/source_verification.json": "7631184733d6020c9ef07fde579a6d0c14f28b2b3705a60e9fbed9ad75e394ac",
     "requirements.txt": "fed854df0babb0f7b2ded7ead1578ebac36cfe472153c09c9c7f2f3ec2c6e729",
-    "src/capture_source.py": "9bd733597130a1ecd812169f8b87e6ae5ab79bf32c147c3dd3b92026280e3ba5"
+    "results/eligible_models.csv": "10eaba2782fd7dcc8622b37c350a19152b69a1d1d15794d6db920d68eaa7b836",
+    "results/model_eligibility.csv": "ad6ce023e0543d85ca3709219c3257ac6a35b1a0346c877d4e2075bd16da326d",
+    "results/scenario_inputs.csv": "a19a37c4430aaacfa5754107c8f5dba787b5330398569bdae883a18832bfaed0",
+    "results/source_gate.json": "a0bd7f9437bce985c81e1fa3e41839163bbb8fb42c7d27025d34bbdcaf535396",
+    "results/source_row_eligibility.csv.gz": "5fdb784c9aa041e45c9a28f505888f4ea47db84ef18ff33e072dec7cc8f08fdb",
+    "src/capture_source.py": "9bd733597130a1ecd812169f8b87e6ae5ab79bf32c147c3dd3b92026280e3ba5",
+    "src/prepare_inputs.py": "262ea071ad7909aeacac9254ae0806976dd3d147eae0dfc41ffff2bc0c97a351",
+    "src/project_source.py": "bab62157717a118e61eae6a122c404392ebf7b9df9e841127eec3f933d04b191",
+    "src/verify_source.py": "10cde30ffc51875a5047c16fb0f6400cc96c26a209b608591f40620d44538a2d"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,

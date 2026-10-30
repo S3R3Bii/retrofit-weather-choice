@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "mode": "PRIVATE_ORIGINALS_DUCKDB_PASS",
+  "checks": 342144,
+  "source_rows": 28510,
+  "scope": "All selected private-original cells and typed source-row bindings when originals supplied;not simulation-physics,model-independence or field-savings validation"
+}
