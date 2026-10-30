@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-10-30T17:51:38.952232+00:00",
+  "timestamp_utc": "2026-10-30T17:52:39.248984+00:00",
   "deliverable": "Study27 retrofit-weather-choice release candidate",
   "parent_revision": "c76677d5763e65f1c61bf0ce03fe094eb611bbc0",
   "sha256": {
@@ -9,14 +9,14 @@
     "src/capture_source.py": "1a420e4f19377ca0b983f24d0c87e4f93e08ce2ffab93b9e3e3d5553055c649c",
     "src/decisions.py": "19d0d3e81e1dc092cbe062b3f5eca62156b121b4990382a0b09a23fd2c7008a5",
     "src/freeze_proof.py": "ce42fcfa77e93fe65c68510dc623e2c5e4d73eb6839ee73da17970c45a11fe17",
-    "src/make_figures.py": "d47b9b5bd7accd741645348e3f07d5559adb38a453fe1bf1120b889be00a864a",
+    "src/make_figures.py": "1b8adffd10d2d4c17d7f81f9cc7d78fa5882e58a0c8887360ea3d32a02cf5fd3",
     "src/prepare_inputs.py": "b787584d4c1237ff460c8857c4bcdfdf4c9bb383c47eff3b4520c1beacfe4d2b",
     "src/project_source.py": "c1b5614f9ad5ff49b939a69d68a0b3e306e3d683db58e30b4358522ca93a9d95",
-    "src/reproduce.py": "7690105cb97b5f6aea11f9de769b0cd9717e0a75b68ae08abf207a89be262e69",
+    "src/reproduce.py": "27c44b38449567b77ac6c42d21b0c5941297b4e637ff00bfb79437c7d94a4688",
     "src/verify_decisions.py": "22620f71cc68613eb2e8fe0f5db90aac7f0930133ec0cc2a982f4156182e9a14",
-    "src/verify_figures.py": "2d800fc9e9d28de925d5f0272971c18f1b01afb9333a28b701cbae101f330bc9",
+    "src/verify_figures.py": "e91d4358272864ef6ab879de544da2c4ef71a3312e69928e38fd69adeddf3f83",
     "src/verify_inputs.py": "de7191a06d543fbfc58309df7774ed425ff050e859aabd5a4c6fc2f2e33f6020",
-    "src/verify_paper.py": "ec9bd0dcacc443a074399c434e04a26dfcc2bbbca1016292a010baf464e9005a",
+    "src/verify_paper.py": "933d723d76181c81c035eef78decff0c1a542033cc68ef8810b0396a9b13122c",
     "src/verify_source.py": "9052696bbce47acfaa0cccb1f0be045e83e922cb034c780f037e19fe85915be6",
     "tests/test_decisions.py": "3c878e61bc4a71c1e223879912ce1a8fedcfefaacfb0edd9390a1557e5404ec8",
     "data/dictionary_fields.json": "75e316215748adb8a5f7ec0107690c9bf001e90f69673e8e26c75f16f481cb8a",
@@ -50,7 +50,8 @@
     "paper/manuscript.pdf": "64fb355ccaaf23c507cf00343dc6c9eedcb68dae0a4baf08b856d1d62345f55f",
     "paper/images/choice_changes.pdf": "c58636b78e007e3cac14d1be65565c80f86fb47bd5a1e0248acd86da55a7cc2b",
     "paper/images/cohort_coverage.pdf": "eb3d705a7c20d03fdea5db6836a04815dacd4ed0e397d1b6f1597ddad999f0a1",
-    "paper/images/scenario_tradeoffs.pdf": "24dec58159e611d9670d02f6889a626c77ba219dd7e7a1b659df44f72e83dfdb"
+    "paper/images/scenario_tradeoffs.pdf": "24dec58159e611d9670d02f6889a626c77ba219dd7e7a1b659df44f72e83dfdb",
+    "src/verify_canonical_git.py": "2f6a170317d1fae7038e43d81aa1212867433604cd5ce9ab8d7a2ac28bf2fd72"
   },
   "acceptance": [
     {
@@ -93,7 +94,7 @@
   "gates": {
     "correctness": "PASS_BOUNDED_EVIDENCE",
     "source_rights": "PASS",
-    "privacy": "PASS_PENDING_FINAL_STAGED_AUDIT",
+    "privacy": "PASS_STAGED_SCAN_REQUIRES_FINAL_REVISION",
     "candidate_linux": "PENDING",
     "main_linux": "PENDING",
     "remote_tag": "PENDING"
@@ -108,17 +109,22 @@
       "round": 2,
       "status": "PASS_LOCAL",
       "changes": "Frozen held application;original-preserving two-runtime replay;figure exact-reader correction preserved;all figures/pages and display arithmetic checked"
+    },
+    {
+      "round": 3,
+      "status": "PASS_LOCAL_PENDING_CANONICAL_CI",
+      "changes": "Formatted nonfrozen supporting code for readability;fresh replay,figure and paper checks pass;source/rules/frozen dependencies/paper unchanged;finish release gates only"
     }
   ],
   "budget": {
     "max_rounds": 3,
     "max_active_review_minutes": 45,
     "max_review_tool_calls": 60,
-    "rounds_used": 2,
-    "review_tool_batches_recorded": 23,
+    "rounds_used": 3,
+    "review_tool_batches_recorded": 27,
     "count_limit": "Grouped calls include failed checks;exact nested review-tool count was not fully instrumented",
     "start_utc": "2026-10-30T17:37:00Z",
-    "elapsed_minutes_proxy": 14,
+    "elapsed_minutes_proxy": 16,
     "proxy_notice": "Elapsed wall time and grouped observations are workload proxies,not account consumption or billing"
   },
   "usage": {
