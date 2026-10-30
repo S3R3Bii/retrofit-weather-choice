@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 297,
+  "source_values": 32,
+  "svg_coordinates": 256,
+  "hashes": 9,
+  "scope": "Individual-ledger arithmetic,actual SVG rectangle coordinates and artifact hashes;not field savings"
+}

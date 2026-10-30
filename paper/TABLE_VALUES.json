@@ -1,0 +1,1317 @@
+[
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Office",
+      "eligible": false
+    },
+    "text": "309",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Office",
+      "eligible": true
+    },
+    "text": "259",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Retail",
+      "eligible": false
+    },
+    "text": "207",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Retail",
+      "eligible": true
+    },
+    "text": "164",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Hotel",
+      "eligible": false
+    },
+    "text": "65",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Hotel",
+      "eligible": true
+    },
+    "text": "40",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Warehouse",
+      "eligible": false
+    },
+    "text": "94",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "cohort",
+      "group": "Warehouse",
+      "eligible": true
+    },
+    "text": "72",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "423",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_gain_2018_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.272",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_gain_2012_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.286",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_gain_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.015",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.049",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "maximin",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "423",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "maximin",
+      "field": "mean_gain_2018_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.266",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "maximin",
+      "field": "mean_gain_2012_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.316",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "maximin",
+      "field": "mean_worst_gain_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.025",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "maximin",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.025",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "maximin",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "11",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "423",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_gain_2018_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.262",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_gain_2012_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.324",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_gain_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.022",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.022",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "14",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "group",
+      "stratum": "Office"
+    },
+    "text": "259",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "group",
+      "stratum": "Office"
+    },
+    "text": "17",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "group",
+      "stratum": "Office"
+    },
+    "text": "6",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Office"
+    },
+    "text": "0.049",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Office"
+    },
+    "text": "0.023",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "group",
+      "stratum": "Retail"
+    },
+    "text": "164",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "group",
+      "stratum": "Retail"
+    },
+    "text": "16",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "group",
+      "stratum": "Retail"
+    },
+    "text": "8",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Retail"
+    },
+    "text": "0.049",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Retail"
+    },
+    "text": "0.019",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "216",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "17",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "9",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "0.062",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "0.023",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "140",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "12",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "3",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "0.038",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "0.027",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "67",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "4",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "2",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "0.032",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "0.006",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "112",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_gain_2018_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.639",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_gain_2012_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.579",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_gain_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.285",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.119",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "112",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "mean_gain_2018_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.625",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "mean_gain_2012_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.653",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "mean_worst_gain_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.299",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.059",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "8",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "112",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_gain_2018_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.614",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_gain_2012_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.670",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_gain_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "6.296",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.053",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "10",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "group",
+      "stratum": "Hotel"
+    },
+    "text": "40",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "group",
+      "stratum": "Hotel"
+    },
+    "text": "8",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "group",
+      "stratum": "Hotel"
+    },
+    "text": "4",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Hotel"
+    },
+    "text": "0.082",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Hotel"
+    },
+    "text": "0.060",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "group",
+      "stratum": "Warehouse"
+    },
+    "text": "72",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "group",
+      "stratum": "Warehouse"
+    },
+    "text": "9",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "group",
+      "stratum": "Warehouse"
+    },
+    "text": "6",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Warehouse"
+    },
+    "text": "0.140",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "group",
+      "stratum": "Warehouse"
+    },
+    "text": "0.050",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "44",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "11",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "6",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "0.234",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "(8,12]hr"
+    },
+    "text": "0.111",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "31",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "2",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "1",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "0.041",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": "<=8hr"
+    },
+    "text": "0.028",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "37",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "4",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "3",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "0.049",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "weekday_band",
+      "stratum": ">12hr"
+    },
+    "text": "0.006",
+    "page": 4,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "n",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "112",
+    "page": 0,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "17",
+    "page": 0,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "maximin",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "8",
+    "page": 0,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "different_from_nominal",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "10",
+    "page": 0,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "nominal",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.119",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "held",
+      "rule": "minimax_regret",
+      "field": "mean_worst_regret_pp",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "0.053",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "strict_unique_reversals",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "33",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "top_set_changes",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "34",
+    "page": 3,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "role": "development",
+      "rule": "nominal",
+      "field": "negative_action_case_cells",
+      "dimension": "overall",
+      "stratum": "all"
+    },
+    "text": "1",
+    "page": 3,
+    "fmt": ".0f"
+  }
+]

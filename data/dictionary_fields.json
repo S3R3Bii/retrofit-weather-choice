@@ -1,0 +1,126 @@
+{
+  "amy2012": [
+    {
+      "field_name": "bldg_id",
+      "data_type": "integer",
+      "units": "",
+      "field_description": "ID number for model"
+    },
+    {
+      "field_name": "upgrade",
+      "data_type": "string",
+      "units": "",
+      "field_description": "ID of upgrade including 00 for Baseline"
+    },
+    {
+      "field_name": "completed_status",
+      "data_type": "string",
+      "units": "",
+      "field_description": "Simulation completion status"
+    },
+    {
+      "field_name": "applicability",
+      "data_type": "boolean",
+      "units": "",
+      "field_description": "Specifies if an upgrade measure was applicable to model if an upgrade was run"
+    },
+    {
+      "field_name": "in.comstock_building_type",
+      "data_type": "string",
+      "units": "",
+      "field_description": "Primary building type of model"
+    },
+    {
+      "field_name": "in.sqft",
+      "data_type": "float",
+      "units": "ft2",
+      "field_description": "Building total floor area"
+    },
+    {
+      "field_name": "in.weekday_operating_hours",
+      "data_type": "float",
+      "units": "hr",
+      "field_description": "Building duration of weekday hours of operation which influences duration of schedules"
+    },
+    {
+      "field_name": "in.weekend_operating_hours",
+      "data_type": "float",
+      "units": "hr",
+      "field_description": "Building duration of weekend hours of operation which influences duration of schedules"
+    },
+    {
+      "field_name": "out.site_energy.total.energy_consumption",
+      "data_type": "float",
+      "units": "kwh",
+      "field_description": "Building annual total site energy consumption"
+    },
+    {
+      "field_name": "out.electricity.total.energy_consumption",
+      "data_type": "float",
+      "units": "kwh",
+      "field_description": "Building annual total site electricity energy consumption"
+    }
+  ],
+  "amy2018": [
+    {
+      "field_name": "bldg_id",
+      "data_type": "integer",
+      "units": "",
+      "field_description": "ID number for model"
+    },
+    {
+      "field_name": "upgrade",
+      "data_type": "string",
+      "units": "",
+      "field_description": "ID of upgrade including 00 for Baseline"
+    },
+    {
+      "field_name": "completed_status",
+      "data_type": "string",
+      "units": "",
+      "field_description": "Simulation completion status"
+    },
+    {
+      "field_name": "applicability",
+      "data_type": "boolean",
+      "units": "",
+      "field_description": "Specifies if an upgrade measure was applicable to model if an upgrade was run"
+    },
+    {
+      "field_name": "in.comstock_building_type",
+      "data_type": "string",
+      "units": "",
+      "field_description": "Primary building type of model"
+    },
+    {
+      "field_name": "in.sqft",
+      "data_type": "float",
+      "units": "ft2",
+      "field_description": "Building total floor area"
+    },
+    {
+      "field_name": "in.weekday_operating_hours",
+      "data_type": "float",
+      "units": "hr",
+      "field_description": "Building duration of weekday hours of operation which influences duration of schedules"
+    },
+    {
+      "field_name": "in.weekend_operating_hours",
+      "data_type": "float",
+      "units": "hr",
+      "field_description": "Building duration of weekend hours of operation which influences duration of schedules"
+    },
+    {
+      "field_name": "out.site_energy.total.energy_consumption",
+      "data_type": "float",
+      "units": "kwh",
+      "field_description": "Building annual total site energy consumption"
+    },
+    {
+      "field_name": "out.electricity.total.energy_consumption",
+      "data_type": "float",
+      "units": "kwh",
+      "field_description": "Building annual total site electricity energy consumption"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+name: Reproduce retrofit weather choices
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  reproduce:
+    if: github.event_name != 'pull_request' || github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python src/reproduce.py
+      - run: python src/verify_figures.py
+      - run: python -m pip install pypdf==6.10.0
+      - run: python src/verify_paper.py
+      - run: python src/verify_canonical_git.py

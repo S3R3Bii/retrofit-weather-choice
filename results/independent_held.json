@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "role": "held",
+  "checks": 23087,
+  "models": 112,
+  "scenario_action_rows": 1030,
+  "choices": 336,
+  "metric_rows": 27,
+  "independence": "Separate exact-rational objective enumeration and field/stratum reconstruction;no analysis-helper imports",
+  "limits": "Finite mathematical and export checks,not source-model accuracy or empirical investment validation"
+}

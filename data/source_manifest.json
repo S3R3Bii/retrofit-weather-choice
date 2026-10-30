@@ -1,0 +1,534 @@
+{
+  "source": "ComStock2025Release2,AMY2012/AMY2018,ChittendenCountyVT",
+  "source_url": "https://data.openei.org/submissions/4520",
+  "attribution": "Data includes information from ComStock developed by NLR with DOE funding;Parker etal.2023,ComStockReferenceDocumentation,NREL/TP-5500-83819",
+  "license": "CC BY4.0 with source research/as-is disclaimer",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "changes": "Minimal selected fields and explicit native-value states;all source rows retained;analysis deduplication and scenario decisions separately labeled",
+  "endorsement": false,
+  "files": {
+    "records.csv.gz": "29703e1235e8a8467ef9a15b205f8d5405a41de551f4af419c023e5482a3f7ad",
+    "dictionary_fields.json": "75e316215748adb8a5f7ec0107690c9bf001e90f69673e8e26c75f16f481cb8a"
+  },
+  "fields": [
+    "bldg_id",
+    "upgrade",
+    "completed_status",
+    "applicability",
+    "in.comstock_building_type",
+    "in.sqft",
+    "in.weekday_operating_hours",
+    "in.weekend_operating_hours",
+    "out.site_energy.total.energy_consumption",
+    "out.electricity.total.energy_consumption"
+  ],
+  "units": {
+    "in.sqft": "ft2",
+    "in.weekday_operating_hours": "hr",
+    "in.weekend_operating_hours": "hr",
+    "out.site_energy.total.energy_consumption": "kwh",
+    "out.electricity.total.energy_consumption": "kwh"
+  },
+  "schemas": {
+    "amy2018-upgrade0.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2842
+    },
+    "amy2018-upgrade39.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2842
+    },
+    "amy2018-upgrade40.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2842
+    },
+    "amy2018-upgrade45.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2842
+    },
+    "amy2018-upgrade48.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2842
+    },
+    "amy2012-upgrade0.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2860
+    },
+    "amy2012-upgrade39.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2860
+    },
+    "amy2012-upgrade40.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2860
+    },
+    "amy2012-upgrade45.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2860
+    },
+    "amy2012-upgrade48.parquet": {
+      "fields": {
+        "bldg_id": "bldg_id",
+        "upgrade": "upgrade",
+        "completed_status": "completed_status",
+        "applicability": "applicability",
+        "in.comstock_building_type": "in.comstock_building_type",
+        "in.sqft": "in.sqft..ft2",
+        "in.weekday_operating_hours": "in.weekday_operating_hours..hr",
+        "in.weekend_operating_hours": "in.weekend_operating_hours..hr",
+        "out.site_energy.total.energy_consumption": "out.site_energy.total.energy_consumption..kwh",
+        "out.electricity.total.energy_consumption": "out.electricity.total.energy_consumption..kwh"
+      },
+      "stored_types": {
+        "bldg_id": "int64",
+        "upgrade": "int64",
+        "completed_status": "large_string",
+        "applicability": "bool",
+        "in.comstock_building_type": "large_string",
+        "in.sqft": "double",
+        "in.weekday_operating_hours": "large_string",
+        "in.weekend_operating_hours": "large_string",
+        "out.site_energy.total.energy_consumption": "double",
+        "out.electricity.total.energy_consumption": "double"
+      },
+      "rows": 2860
+    }
+  },
+  "rows_by_source": {
+    "amy2018-upgrade0.parquet": 2842,
+    "amy2018-upgrade39.parquet": 2842,
+    "amy2018-upgrade40.parquet": 2842,
+    "amy2018-upgrade45.parquet": 2842,
+    "amy2018-upgrade48.parquet": 2842,
+    "amy2012-upgrade0.parquet": 2860,
+    "amy2012-upgrade39.parquet": 2860,
+    "amy2012-upgrade40.parquet": 2860,
+    "amy2012-upgrade45.parquet": 2860,
+    "amy2012-upgrade48.parquet": 2860
+  },
+  "source_rows": 28510,
+  "requests": [
+    {
+      "weather": "amy2018",
+      "upgrade": 0,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade0.parquet",
+      "bytes_from_listing": 5833030,
+      "file": "amy2018-upgrade0.parquet",
+      "start_utc": "2026-10-30T17:38:00.150085+00:00",
+      "end_utc": "2026-10-30T17:38:01.135843+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "5833030",
+        "ETag": "\"851c8d188b8ba3dc2dd6520cef3d7b7c\"",
+        "Last-Modified": "Thu, 14 Aug 2025 02:35:15 GMT"
+      },
+      "bytes": 5833030,
+      "sha256": "0effbf3f72a51f35da12a5b3c99316d39fa3c213e1ae8fc51cfb770d557a2d53",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2018",
+      "upgrade": 39,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade39.parquet",
+      "bytes_from_listing": 6942967,
+      "file": "amy2018-upgrade39.parquet",
+      "start_utc": "2026-10-30T17:38:01.136845+00:00",
+      "end_utc": "2026-10-30T17:38:02.044195+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "6942967",
+        "ETag": "\"9e03829d16ef6ebfab50502f2362ee5e\"",
+        "Last-Modified": "Thu, 14 Aug 2025 02:35:15 GMT"
+      },
+      "bytes": 6942967,
+      "sha256": "c18ed29a5a7904b4ef37817a541f3e9c0b1afd36bbeed319fc7cf355e6534a20",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2018",
+      "upgrade": 40,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade40.parquet",
+      "bytes_from_listing": 7434259,
+      "file": "amy2018-upgrade40.parquet",
+      "start_utc": "2026-10-30T17:38:02.045239+00:00",
+      "end_utc": "2026-10-30T17:38:03.022726+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "7434259",
+        "ETag": "\"3980ad7b166ac64f687651d17cb5f5e4\"",
+        "Last-Modified": "Thu, 14 Aug 2025 02:35:15 GMT"
+      },
+      "bytes": 7434259,
+      "sha256": "88109c485f4648c0bd525c99f36fa862b9b627e7a25072d35ce7ee7ddf9cca53",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2018",
+      "upgrade": 45,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade45.parquet",
+      "bytes_from_listing": 7373319,
+      "file": "amy2018-upgrade45.parquet",
+      "start_utc": "2026-10-30T17:38:03.024228+00:00",
+      "end_utc": "2026-10-30T17:38:04.020277+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "7373319",
+        "ETag": "\"599096f77a44b7cf2a6de9459821b2cd\"",
+        "Last-Modified": "Thu, 14 Aug 2025 02:35:15 GMT"
+      },
+      "bytes": 7373319,
+      "sha256": "13805057f337d95567c7a2f24187fdbdfaf80351e29f2a8744cd02b571ad361b",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2018",
+      "upgrade": 48,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade48.parquet",
+      "bytes_from_listing": 7381575,
+      "file": "amy2018-upgrade48.parquet",
+      "start_utc": "2026-10-30T17:38:04.020277+00:00",
+      "end_utc": "2026-10-30T17:38:05.608852+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "7381575",
+        "ETag": "\"49b7af4078ae7a848378f140f2b9231d\"",
+        "Last-Modified": "Thu, 14 Aug 2025 02:35:15 GMT"
+      },
+      "bytes": 7381575,
+      "sha256": "42c6250981d343dbe3614dc658c496c016018beaee88e79fb384f54d4cca3a9b",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2012",
+      "upgrade": 0,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade0.parquet",
+      "bytes_from_listing": 5784809,
+      "file": "amy2012-upgrade0.parquet",
+      "start_utc": "2026-10-30T17:38:05.609853+00:00",
+      "end_utc": "2026-10-30T17:38:06.567868+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "5784809",
+        "ETag": "\"df3149a18ec0609aaa731787f1d48686\"",
+        "Last-Modified": "Wed, 22 Oct 2025 16:34:52 GMT"
+      },
+      "bytes": 5784809,
+      "sha256": "48b0a4137c6a73a27106c0450e9a023c73bed5901d924f84a33510ef44eb655c",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2012",
+      "upgrade": 39,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade39.parquet",
+      "bytes_from_listing": 6872012,
+      "file": "amy2012-upgrade39.parquet",
+      "start_utc": "2026-10-30T17:38:06.567868+00:00",
+      "end_utc": "2026-10-30T17:38:07.487410+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "6872012",
+        "ETag": "\"877dbc2d64a0f1886ad2230f125c4264\"",
+        "Last-Modified": "Wed, 15 Oct 2025 17:18:07 GMT"
+      },
+      "bytes": 6872012,
+      "sha256": "7bf838b8a13290ea27329c1153f45af7645a1e8af382a4c782992dbd95fd4ef2",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2012",
+      "upgrade": 40,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade40.parquet",
+      "bytes_from_listing": 7381993,
+      "file": "amy2012-upgrade40.parquet",
+      "start_utc": "2026-10-30T17:38:07.487410+00:00",
+      "end_utc": "2026-10-30T17:38:08.425448+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "7381993",
+        "ETag": "\"ec7388a7a1363b2eacb05e81b2f5b6ff\"",
+        "Last-Modified": "Wed, 15 Oct 2025 17:19:22 GMT"
+      },
+      "bytes": 7381993,
+      "sha256": "ef9e54398c61b6df4c742d1e3230d500021c0238cb2a34748197097599e83d03",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2012",
+      "upgrade": 45,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade45.parquet",
+      "bytes_from_listing": 7317770,
+      "file": "amy2012-upgrade45.parquet",
+      "start_utc": "2026-10-30T17:38:08.425448+00:00",
+      "end_utc": "2026-10-30T17:38:09.360615+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "7317770",
+        "ETag": "\"53dddf8bd1f9fb0f882496455bf5cf74\"",
+        "Last-Modified": "Wed, 15 Oct 2025 17:18:31 GMT"
+      },
+      "bytes": 7317770,
+      "sha256": "a010940c9e7f9450b039c6634853e05f75db1ca76b823686485252c92bd5daa1",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    },
+    {
+      "weather": "amy2012",
+      "upgrade": 48,
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/metadata_and_annual_results/by_state_and_county/full/parquet/state=VT/county=G5000070/VT_G5000070_upgrade48.parquet",
+      "bytes_from_listing": 7323741,
+      "file": "amy2012-upgrade48.parquet",
+      "start_utc": "2026-10-30T17:38:09.360615+00:00",
+      "end_utc": "2026-10-30T17:38:10.347213+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "7323741",
+        "ETag": "\"678ab167473f10e04ef4a2e2d852f3f4\"",
+        "Last-Modified": "Wed, 15 Oct 2025 17:19:19 GMT"
+      },
+      "bytes": 7323741,
+      "sha256": "1f86072ba39ea8d9aaa86062d3d9f83c869f35179905689dd7895c3f157c73c6",
+      "protocol_commit": "557cb7cdeed68df66b9a6273a0efb758cf0cd21c",
+      "python": "3.12.14"
+    }
+  ],
+  "dictionaries": {
+    "amy2012": {
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2012_release_2/data_dictionary.tsv",
+      "sha256": "f48e209fed93c04bef26f627b4ab72fd032adee4d4e0db6512808134f5bcca4d"
+    },
+    "amy2018": {
+      "url": "https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2025/comstock_amy2018_release_2/data_dictionary.tsv",
+      "sha256": "63630b8854f04103da9cfe96535b3ff0acf656f5823c285f0bfe6eeccb99d046"
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pyarrow": "26.0.0"
+  },
+  "limits": "Published simulations,not physical building records or measured savings;reallocated model copies not independent;source PDFs/dictionaries/raw files private;no national weights or totals"
+}
