@@ -57,6 +57,9 @@ def write(path, rows):
 
 
 def run(role, output):
+    if role == "held":
+        from freeze_proof import verify
+        verify()
     with (ROOT / "results/scenario_inputs.csv").open(encoding="utf-8", newline="") as f:
         source = [r for r in csv.DictReader(f) if r["role"] == role]
     with (ROOT / "results/eligible_models.csv").open(encoding="utf-8", newline="") as f:

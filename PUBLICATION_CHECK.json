@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T17:47:07.955761+00:00",
+  "timestamp_utc": "2026-10-30T17:47:29.816286+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 33,
+  "files_checked": 35,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -23,6 +23,7 @@
     "results/development_model_diagnostics.csv": "f3b4abf5f9c9f9eb7ae2e9ab0b68cffd2aba2706ce1ad58ed18f1e31dcc337af",
     "results/development_summary.json": "e51b5fc04ee221af26591399a458437161b2a61412f8e470e6041c3741b144db",
     "results/eligible_models.csv": "10eaba2782fd7dcc8622b37c350a19152b69a1d1d15794d6db920d68eaa7b836",
+    "results/frozen_dependencies.json": "b13c5fa602ba71d7c6e1377dbf8d70f63185003c64583c4ca89c12727b367fc4",
     "results/independent_development.json": "12dc8385aaa0b86df8e5d90b63eb49a5f3135addd5bdd92fc653ecb476a1d30b",
     "results/independent_inputs.json": "8557266b3d14e58d65b8cdad53905dac5bee5233102f6ccb2944632742b6771d",
     "results/model_eligibility.csv": "ad6ce023e0543d85ca3709219c3257ac6a35b1a0346c877d4e2075bd16da326d",
@@ -30,7 +31,8 @@
     "results/source_gate.json": "a0bd7f9437bce985c81e1fa3e41839163bbb8fb42c7d27025d34bbdcaf535396",
     "results/source_row_eligibility.csv.gz": "5fdb784c9aa041e45c9a28f505888f4ea47db84ef18ff33e072dec7cc8f08fdb",
     "src/capture_source.py": "1a420e4f19377ca0b983f24d0c87e4f93e08ce2ffab93b9e3e3d5553055c649c",
-    "src/decisions.py": "385f465f8da888faf6e837406cd1ab8a66adfa376db1dd2f0d412ddd86622230",
+    "src/decisions.py": "19d0d3e81e1dc092cbe062b3f5eca62156b121b4990382a0b09a23fd2c7008a5",
+    "src/freeze_proof.py": "ce42fcfa77e93fe65c68510dc623e2c5e4d73eb6839ee73da17970c45a11fe17",
     "src/prepare_inputs.py": "b787584d4c1237ff460c8857c4bcdfdf4c9bb383c47eff3b4520c1beacfe4d2b",
     "src/project_source.py": "c1b5614f9ad5ff49b939a69d68a0b3e306e3d683db58e30b4358522ca93a9d95",
     "src/verify_decisions.py": "22620f71cc68613eb2e8fe0f5db90aac7f0930133ec0cc2a982f4156182e9a14",
