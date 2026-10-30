@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": 328115,
+  "source_rows": 28510,
+  "planned_models": 882,
+  "eligible_models": 535,
+  "scenario_rows": 5006,
+  "independence": "Separate SQL key/role joins,literal-copy proof and Decimal numeric qualification;no analysis helper imports",
+  "limits": "Current finite projection and cohort;no physical-model,occupancy-causality or field-savings validation"
+}
