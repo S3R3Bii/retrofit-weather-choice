@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "Reviewed independent GitHub study authorized; formal-publication projects including Azure remain private.",
+  "public_files": {
+    "paper/main.tex": "1a2c1c351bbd95243f528701bd9f8d77a0a16e7a3d552aac7f5f4ccb25a2354c",
+    "paper/manuscript.pdf": "64fb355ccaaf23c507cf00343dc6c9eedcb68dae0a4baf08b856d1d62345f55f",
+    "paper/images/choice_changes.pdf": "c58636b78e007e3cac14d1be65565c80f86fb47bd5a1e0248acd86da55a7cc2b",
+    "paper/images/cohort_coverage.pdf": "eb3d705a7c20d03fdea5db6836a04815dacd4ed0e397d1b6f1597ddad999f0a1",
+    "paper/images/scenario_tradeoffs.pdf": "24dec58159e611d9670d02f6889a626c77ba219dd7e7a1b659df44f72e83dfdb"
+  }
+}

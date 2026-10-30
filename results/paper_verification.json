@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 251,
+  "displayed_values": 103,
+  "pages": 6,
+  "scope": "Independent individual-ledger display arithmetic,source counts,claim qualifiers,scoped hashes and bounded PDF structure;rendering checked separately"
+}
